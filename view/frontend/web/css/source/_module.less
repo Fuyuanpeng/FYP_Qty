@@ -1,0 +1,32 @@
+.box-tocart {
+  div.control {
+    position: relative;
+    width: 92px !important;
+    .minus,
+    .plus {
+      &:hover {
+        button {
+          background: #dfdfdf;
+          color: #252531;
+        }
+      }
+      button {
+        position: absolute;
+        top: 0px;
+        border-radius: 4px 0 0 4px;
+        border: 1px solid #dfdfdf;
+        background: #fff;
+        height: 40px;
+        line-height: 40px;
+        padding: 0px;
+        width: 28px;
+        text-align: center;
+        cursor: pointer;
+        box-shadow: none;
+      }
+    }
+    .minus {
+      button {
+        left: 0px;
+      }
+    }
